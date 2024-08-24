@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: hsl(71, 86%, 90%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 100%;
+    display: flex;
+}
+
+.left img{
+    height: 100px;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.left h3{
+    flex-direction: column;
+    font-family: "Roboto";
+    font-size: 0.55rem;
+    color: rgb(44, 27, 14);
+    padding-left: 20;
+    margin: 0;
+    font-weight: 400;
+    padding-bottom: 20;
+}
+
+.left h1 {
+    flex-direction: column;
+    font-family: "New Amsterdam";
+    font-size: 220%;
+    color: rgb(44, 27, 14);
+    letter-spacing: 5px;
+    margin: 0;
+    padding-left: 20;
+    padding-top: 20;
+    padding-bottom: 0;
+}
+
+.titleLogo {
+    display: flex;
+    flex-direction: column;
+    margin:auto 0 auto 0;
+}
+
+.right a{
+    font-family: "Roboto";
+    text-decoration: none;
+    color: rgb(44, 27, 14);
+    padding: 20;
+    justify-content: center;
+}
+
+.right{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20;
+}
