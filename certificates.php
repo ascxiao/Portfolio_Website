@@ -30,8 +30,8 @@
     </header>
 
     <div id = "content"> 
-        <div>
-            <h2>Certificates</h2>
+        <div id = "description">
+            <h2><?= $certificates ?></h2>
             <p>This section shows my official certifications through the years</p>
             <br>
         </div>
@@ -55,9 +55,9 @@
                 <hr>
                     <ul>
                         <li>
-                            <strong>Lasallian Leaders Training Seminar 2024</strong> <br>
-                            <p>Conducted on July 23-24, 2024. Training for upcoming Lasallian leaders for SY 2024-2025.</p>
-                            <img src="./assets/certificates/llts.jpg" alt="LLTS Certificate">
+                            <strong>Google UX Design</strong> <br>
+                            <p>Received on July 1, 2024. Course teaching the foundation of UX research from diagramming, prototyping, and to UX job interviews.</p>
+                            <img src="./assets/certificates/googleUX.jpeg" alt="Google UX Design Certificate">
                         </li>
                         <hr>
                     </ul>
@@ -65,6 +65,26 @@
         </div>
     </div>
 
+    <footer>
+        <hr>
+
+        <div>
+            <div>
+                <h3 id="contact"><?= $contacts ?></h3>
+                <p>Contact me!</p>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Email: cmcvldz231@gmail.com </li>
+                    <li>Phone: (+63) 995 091 7183</li>
+                    <li>Address: Mabini St., Barangay Zone 3, Cadiz City, Negros Occidental</li>
+                </ul>
+            </div>
+
+            <a href="#top">Back to top</a>
+        </div>
+    </footer>
 
 </body>
 </html>
