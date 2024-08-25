@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <?php
     include "variables.php";
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $certificates ?></title>
 </head>
+
 <body>
     <header id="top">
 
@@ -87,4 +89,5 @@
     </footer>
 
 </body>
+
 </html>
