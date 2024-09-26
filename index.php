@@ -1,9 +1,7 @@
 <html lang="en">
 
 <head>
-    <?php
-    include "variables.php"
-    ?>
+    <?php include "variables.php"?>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,11 +20,32 @@
 
 </head>
 
-<body>
-    <?php include('menu.php')?>
+<body class="d-flex flex-column" style="overflow-x: hidden; margin: 0">
 
+    <main class="container-fluid">
 
-    <?php include('footer.php')?>
+            <div class="row">
+            
+                    <?php include('menu.php'); ?>
+                
+
+                <div class="col-9 d-flex flex-column ">
+                    <div class="flex-grow-1 p-3" style = "width: 100%">
+                        <header class="header_container">
+                            <div class="header_image">
+                                <img src="./assets/photos/self_picture.png" alt="header" width="512px" height="512px" class = "image">
+                            </div>
+                        </header>
+
+                    </div>
+
+                    <footer class="footer">
+                    <?php include('footer.php'); ?> 
+                    </footer>
+                </div>
+            </div>
+    </main>
+    
 
     <script src="./ie-emulation-modes-warning.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

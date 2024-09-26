@@ -19,6 +19,7 @@
 
       .sidebar {
         background-color: #4e6151;
+        height: 100vh;
       }
 
       .active{
@@ -115,9 +116,6 @@
 
   </head>
   <body>
-
-    <main class="d-flex flex-nowrap">
-
 
       <div class="flex-shrink-0 p-3 sidebar" style="width: 280px;">
         <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom text-white">
