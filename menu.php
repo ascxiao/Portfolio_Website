@@ -122,6 +122,7 @@
           <img class="bi pe-none me-2" width="48" height="48" src = "./assets/icon-transparent.png">
           <span class="fs-5 fw-semibold">Kaluroos Linnaeus</span>
         </a>
+        
         <ul class="list-unstyled ps-0">
           <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed main-button" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">

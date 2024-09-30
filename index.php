@@ -20,27 +20,49 @@
 
 </head>
 
-<body class="d-flex flex-column" style="overflow-x: hidden; margin: 0">
+<body class="d-flex flex-column" style="overflow-x: hidden; overflow-y:auto; margin: 0; height: auto">
 
     <main class="container-fluid m-0 p-0">
 
             <div class="row m-0 p-0">
-                <div class="col-lg-3 col-12 m-0 p-0">
+                <div class="col-lg-2 col-12 m-0 p-0">
                     <?php include('menu.php'); ?>
                 </div>
-                <div class="col-lg-9 col-12 m-0 p-0 g-0">
-                    <div class="flex-grow-1 p-3 " style = "width: 100%">
-                        <div class = "header_title">
-                            <h1>Hello, (visitor name)! Welcome to my portfolio!</h1>
+
+                <div class="col-lg-10 col-12 m-0 p-0 g-0">
+                    <div class>
+                        <div class="content_container">
+                            <div class="row m-0">
+                                <div class = "col-6">
+                                    <div class = "header_title">
+                                        <h1>Hello, (visitor name)!</h1>
+                                        <p class = "greetings">I'm Carlos Miguel C. Valderrama</p>
+                                        <p class = "greetings">and welcome to my student portfolio!</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-5">
+                                    <div class = "carlos_image">
+                                        <img src="./assets/photos/swirls/sprout.png" alt="sprout" class="swirl"> 
+                                        <img src="./assets/photos/swirls/swirl_3.png" alt="swirl3" class="swirl"> 
+                                        <img src="./assets/photos/swirls/swirl_2.png" alt="swirl2" class="swirl"> 
+                                        <img src="./assets/photos/swirls/swirl_1.png" alt="swirl1" class="swirl">
+                                        <img src="./assets/photos/self_picture.png" alt="header" class = "carlos">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class = "carlos-image">
-                            <img src="./assets/photos/swirls/sprout.png" alt="sprout" class="swirl"> 
-                            <img src="./assets/photos/swirls/swirl_3.png" alt="swirl3" class="swirl"> 
-                            <img src="./assets/photos/swirls/swirl_2.png" alt="swirl2" class="swirl"> 
-                            <img src="./assets/photos/swirls/swirl_1.png" alt="swirl1" class="swirl">
-                            <img src="./assets/photos/self_picture.png" alt="header" class = "carlos">
+                                    <div class = "gradient_container">
+                                        <div class = "gradient_divider"> </div>
+                                    </div>
+                                    
+                        <div class="content_container">
+                            <div class="row m-0">
+                                PUT CONTENT HERE
+                            </div>
                         </div>
+
                     </div>
 
                     <footer class="footer">
