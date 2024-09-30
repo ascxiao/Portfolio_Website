@@ -22,21 +22,16 @@
 
 <body class="d-flex flex-column" style="overflow-x: hidden; margin: 0">
 
-    <main class="container-fluid">
+    <main class="container-fluid m-0 p-0">
 
-            <div class="row">
-            
+            <div class="row m-0 p-0">
+                <div class="col-lg-3 col-12 m-0 p-0">
                     <?php include('menu.php'); ?>
-                
-
-                <div class="col-9 d-flex flex-column ">
+                </div>
+                <div class="col-lg-9 col-12 m-0 p-0 g-0">
                     <div class="flex-grow-1 p-3" style = "width: 100%">
-                        <header class="header_container">
-                            <div class="header_image">
-                                <img src="./assets/photos/self_picture.png" alt="header" width="512px" height="512px" class = "image">
-                            </div>
-                        </header>
-
+                            <img src="./assets/photos/swirls/swirl_1.png" alt="swirl1" class="swirl1">
+                            <img src="./assets/photos/self_picture.png" alt="header" class = "carlos">
                     </div>
 
                     <footer class="footer">

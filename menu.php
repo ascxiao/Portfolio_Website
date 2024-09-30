@@ -117,7 +117,7 @@
   </head>
   <body>
 
-      <div class="flex-shrink-0 p-3 sidebar" style="width: 280px;">
+      <div class="flex-shrink-0 p-3 sidebar" style="width: 100%;">
         <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom text-white">
           <img class="bi pe-none me-2" width="48" height="48" src = "./assets/icon-transparent.png">
           <span class="fs-5 fw-semibold">Kaluroos Linnaeus</span>
