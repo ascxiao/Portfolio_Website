@@ -4,17 +4,22 @@
     padding-block: 8rem;
 }
 
-.carlos {
+.carlos-image {
     position: relative;
-    left: 55%;
-    width: 512px;
-    height: 512px;
+    left: 50%;
 }
 
-.swirl1 {
+.carlos {
+    position: relative;
+    width: 70vh;
+    height: 70vh;
+    z-index: -1;
+}
+
+.swirl {
     position: absolute;
-    left: 60%;
-    z-index: 1;
-    width: 640px;
-    height: 640px;
+    bottom: -3%;
+    right: 56%;
+    width: 80vh;
+    height: 80vh;
 }

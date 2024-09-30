@@ -29,9 +29,18 @@
                     <?php include('menu.php'); ?>
                 </div>
                 <div class="col-lg-9 col-12 m-0 p-0 g-0">
-                    <div class="flex-grow-1 p-3" style = "width: 100%">
-                            <img src="./assets/photos/swirls/swirl_1.png" alt="swirl1" class="swirl1">
+                    <div class="flex-grow-1 p-3 " style = "width: 100%">
+                        <div class = "header_title">
+                            <h1>Hello, (visitor name)! Welcome to my portfolio!</h1>
+                        </div>
+
+                        <div class = "carlos-image">
+                            <img src="./assets/photos/swirls/sprout.png" alt="sprout" class="swirl"> 
+                            <img src="./assets/photos/swirls/swirl_3.png" alt="swirl3" class="swirl"> 
+                            <img src="./assets/photos/swirls/swirl_2.png" alt="swirl2" class="swirl"> 
+                            <img src="./assets/photos/swirls/swirl_1.png" alt="swirl1" class="swirl">
                             <img src="./assets/photos/self_picture.png" alt="header" class = "carlos">
+                        </div>
                     </div>
 
                     <footer class="footer">
