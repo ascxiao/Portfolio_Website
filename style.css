@@ -1,3 +1,11 @@
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    height: auto"
+
+}
+
 .head_container {
     max-width: var(--max-width);
     margin: auto;
@@ -46,11 +54,10 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: -1;
-    padding-right: 3em;
 }
 
 .gradient_container {
-    position: relative;
+    position: absolute;
     padding: 0%;
     margin: 0%;
     width: 100%;

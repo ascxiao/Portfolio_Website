@@ -20,56 +20,66 @@
 
 </head>
 
-<body class="d-flex flex-column" style="overflow-x: hidden; overflow-y:auto; margin: 0; height: auto">
+<body class="d-flex flex-column">
 
     <main class="container-fluid m-0 p-0">
 
             <div class="row m-0 p-0">
                 <div class="col-lg-2 col-12 m-0 p-0">
-                    <?php include('menu.php'); ?>
+                        <?php include('menu.php'); ?>
                 </div>
 
-                <div class="col-lg-10 col-12 m-0 p-0 g-0">
-                    <div class>
-                        <div class="content_container">
-                            <div class="row m-0">
-                                <div class = "col-6">
-                                    <div class = "header_title">
-                                        <h1>Hello, (visitor name)!</h1>
-                                        <p class = "greetings">I'm Carlos Miguel C. Valderrama</p>
-                                        <p class = "greetings">and welcome to my student portfolio!</p>
-                                    </div>
+                <div class="col-lg-10 col-12 p-0 g-0">
+                    <div class="content_container m-0 p-0">
+                        <div class="row">
+                            <div class = "col-6 p-5">
+                                <div class = "header_title">
+                                    <h1>Hello, (visitor name)!</h1>
+                                    <p class = "greetings">I'm Carlos Miguel C. Valderrama</p>
+                                    <p class = "greetings">and welcome to my student portfolio!</p>
                                 </div>
+                            </div>
 
-                                <div class="col-5">
-                                    <div class = "carlos_image">
-                                        <img src="./assets/photos/swirls/sprout.png" alt="sprout" class="swirl"> 
-                                        <img src="./assets/photos/swirls/swirl_3.png" alt="swirl3" class="swirl"> 
-                                        <img src="./assets/photos/swirls/swirl_2.png" alt="swirl2" class="swirl"> 
-                                        <img src="./assets/photos/swirls/swirl_1.png" alt="swirl1" class="swirl">
-                                        <img src="./assets/photos/self_picture.png" alt="header" class = "carlos">
-                                    </div>
+                            <div class="col-5 p-4">
+                                <div class = "carlos_image">
+                                    <img src="./assets/photos/swirls/sprout.png" alt="sprout" class="swirl"> 
+                                    <img src="./assets/photos/swirls/swirl_3.png" alt="swirl3" class="swirl"> 
+                                    <img src="./assets/photos/swirls/swirl_2.png" alt="swirl2" class="swirl"> 
+                                    <img src="./assets/photos/swirls/swirl_1.png" alt="swirl1" class="swirl">
+                                    <img src="./assets/photos/self_picture.png" alt="header" class = "carlos">
                                 </div>
                             </div>
                         </div>
-
-                                    <div class = "gradient_container">
-                                        <div class = "gradient_divider"> </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-12 m-0 p-0 g-0">
+                                <div class="col-12">
+                                    <div class = "gradient_container p-0">
+                                        <div class="col-lg-12 col-12 m-0 p-0 g-0">
+                                            <div class = "gradient_divider"> </div>
+                                        </div>1
                                     </div>
+                                </div>
+
+                                <div class="content_container" style="background-color: pink; height: 1000px">
                                     
-                        <div class="content_container">
-                            <div class="row m-0">
-                                PUT CONTENT HERE
+                                    <p>TEST</p>
+                    
+                                </div>
                             </div>
                         </div>
-
+                        <div class="row m-0 p-0">
+                            <div class="col-lg-12 col-12 m-0 p-0 g-0">
+                                </div>
+                                    <footer class="footer">
+                                    <?php include('footer.php'); ?> 
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <footer class="footer">
-                    <?php include('footer.php'); ?> 
-                    </footer>
                 </div>
             </div>
+
     </main>
     
 

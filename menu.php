@@ -18,8 +18,15 @@
     <style>
 
       .sidebar {
+        position: sticky;
         background-color: #4e6151;
-        height: 100vh;
+        height: 100%;
+      }
+
+      .sidebar_content{
+        position: fixed;
+        height: 100%;
+        z-index: 1000;
       }
 
       .active{
@@ -117,64 +124,66 @@
   </head>
   <body>
 
-      <div class="flex-shrink-0 p-3 sidebar" style="width: 100%;">
-        <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom text-white">
-          <img class="bi pe-none me-2" width="48" height="48" src = "./assets/icon-transparent.png">
-          <span class="fs-5 fw-semibold">Kaluroos Linnaeus</span>
-        </a>
-        
-        <ul class="list-unstyled ps-0">
-          <li class="mb-1">
-          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed main-button" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-              Home
-            </button>
-            <div class="collapse show" id="home-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">About Me</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Contact Me</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed main-button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-              Credentials
-            </button>
-            <div class="collapse" id="dashboard-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Education</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Achievements</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Affiliations</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Certifications</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed main-button" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-              Projects
-            </button>
-            <div class="collapse" id="orders-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">UX Design</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Visual Arts</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Web Design</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="border-top my-3"></li>
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed main-button" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-              Gallery
-            </button>
-            <div class="collapse" id="account-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Volunteer Works</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Organizations and Events</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Projects Compilation</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">My Hair</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+    <div class = "sidebar_content">
+        <div class="flex-shrink-0 p-3 sidebar" style="width: 100%;">
+            <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom text-white">
+              <img class="bi pe-none me-2" width="48" height="48" src = "./assets/icon-transparent.png">
+              <span class="fs-5 fw-semibold">Kaluroos Linnaeus</span>
+            </a>
+          
+          <ul class="list-unstyled ps-0">
+            <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed main-button" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                Home
+              </button>
+              <div class="collapse show" id="home-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">About Me</a></li>
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Contact Me</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed main-button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                Credentials
+              </button>
+              <div class="collapse" id="dashboard-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Education</a></li>
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Achievements</a></li>
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Affiliations</a></li>
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Certifications</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed main-button" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                Projects
+              </button>
+              <div class="collapse" id="orders-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">UX Design</a></li>
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Visual Arts</a></li>
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Web Design</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="border-top my-3"></li>
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed main-button" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                Gallery
+              </button>
+              <div class="collapse" id="account-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Volunteer Works</a></li>
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Organizations and Events</a></li>
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">Projects Compilation</a></li>
+                  <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-white">My Hair</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
 
