@@ -21,8 +21,8 @@ html {
 
 .btn-toggle:hover,
 .btn-toggle:focus {
-  color: rgba(var(--bs-emphasis-color-rgb), .85);
-  background-color: var(--bs-tertiary-bg);
+  color: rgba(var(--bs-emphasis-color-rgb), .85) !important;
+  background-color: white;
 }
 
 .btn-toggle::before {
@@ -38,7 +38,9 @@ html {
 }
 
 .btn-toggle[aria-expanded="true"] {
-  color: rgba(var(--bs-emphasis-color-rgb), .85);
+  color: rgba(var(--bs-emphasis-color-rgb), .85) !important;
+  background-color: white;
+
 }
 
 .btn-toggle[aria-expanded="true"]::before {

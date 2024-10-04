@@ -11,80 +11,66 @@
 
     <meta name="description" content="">
     <meta name="author" content="Carlos Valderrama">
-    <!-- Change icon later -->
-    <link rel="icon" href="./assets/icon-transparent.png"> 
-    
-    <link href = "style.css" rel = "stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <link rel="icon" href="./assets/icon-transparent.png"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href = "style.css" rel = "stylesheet">
+
+    <?php include "./assets/fonts.php"?>
+
+    <style>
+        <?php include ("./assets/fonts.css")?>
+    </style>
 
 </head>
 
-<body class="d-flex flex-column">
+<body class="container-fluid d-flex flex-column">
+    <main>
+        <div class="row">
+            <div class="col-lg-2 col-12 p-0">
+                <?php include('menu.php'); ?>
+            </div>
 
-    <main class="container-fluid m-0 p-0">
+            <div class="col-lg-10 col-12">
+                <div class="content_container m-0 g-0 p-0" id = "landing_page">
 
-            <div class="row m-0 p-0">
-                <div class="col-lg-2 col-12 m-0 p-0">
-                        <?php include('menu.php'); ?>
-                </div>
+                    <?php include('./pages/first_page/welcome_greetings.php')?>
 
-                <div class="col-lg-10 col-12 p-0 g-0">
-                    <div class="content_container m-0 p-0">
-                        <div class="row">
-                            <div class = "col-6 p-5">
-                                <div class = "header_title">
-                                    <h1>Hello, (visitor name)!</h1>
-                                    <p class = "greetings">I'm Carlos Miguel C. Valderrama</p>
-                                    <p class = "greetings">and welcome to my student portfolio!</p>
-                                </div>
-                            </div>
-
-                            <div class="col-5 p-4">
-                                <div class = "carlos_image">
-                                    <img src="./assets/photos/swirls/sprout.png" alt="sprout" class="swirl"> 
-                                    <img src="./assets/photos/swirls/swirl_3.png" alt="swirl3" class="swirl"> 
-                                    <img src="./assets/photos/swirls/swirl_2.png" alt="swirl2" class="swirl"> 
-                                    <img src="./assets/photos/swirls/swirl_1.png" alt="swirl1" class="swirl">
-                                    <img src="./assets/photos/self_picture.png" alt="header" class = "carlos">
-                                </div>
+                    <div class="row">
+                        <div class = "content_container" style = "background-color: #4e6151;" id = "about_me">
+                            <div class = "col-12" height = "100%">
+                                <?php include('./pages/first_page/about_me.php'); ?>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-12 m-0 p-0 g-0">
-                                <div class="col-12">
-                                    <div class = "gradient_container p-0">
-                                        <div class="col-lg-12 col-12 m-0 p-0 g-0">
-                                            <div class = "gradient_divider"> </div>
-                                        </div>1
-                                    </div>
-                                </div>
+                    </div>
 
-                                <div class="content_container" style="background-color: pink; height: 1000px">
-                                    
-                                    <p>TEST</p>
                     
-                                </div>
+                    <div class="row">
+                        <div class = "content_container" id = "contact_me">
+                            <div class = "col-12" height = "100%">
+                                <?php include('./pages/first_page/contact_me.php'); ?>
                             </div>
                         </div>
-                        <div class="row m-0 p-0">
-                            <div class="col-lg-12 col-12 m-0 p-0 g-0">
-                                </div>
-                                    <footer class="footer">
-                                    <?php include('footer.php'); ?> 
-                                    </footer>
-                                </div>
+                    </div>
+
+                    <div class="row m-0 p-0">
+                        <div class="col-lg-12 col-12 m-0 p-0 g-0">
+                            </div>
+                                <footer class="footer">
+                                <?php include('./pages/footer.php'); ?> 
+                                </footer>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+        </div>
     </main>
     
-
     <script src="./ie-emulation-modes-warning.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
 </body>
 </html>
