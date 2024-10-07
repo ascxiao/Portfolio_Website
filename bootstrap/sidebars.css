@@ -21,8 +21,8 @@ html {
 
 .btn-toggle:hover,
 .btn-toggle:focus {
-  color: rgba(var(--bs-emphasis-color-rgb), .85) !important;
-  background-color: white;
+  color: rgba(var(--bs-emphasis-color-rgb), .85);
+  background-color: var(--bs-tertiary-bg);
 }
 
 .btn-toggle::before {
@@ -38,9 +38,7 @@ html {
 }
 
 .btn-toggle[aria-expanded="true"] {
-  color: rgba(var(--bs-emphasis-color-rgb), .85) !important;
-  background-color: white;
-
+  color: rgba(var(--bs-emphasis-color-rgb), .85);
 }
 
 .btn-toggle[aria-expanded="true"]::before {
@@ -55,10 +53,5 @@ html {
 
 .btn-toggle-nav a:hover,
 .btn-toggle-nav a:focus {
-  background-color: var(--bs-tertiary-bg);
-}
-
-
-.scrollarea {
-  overflow-y: auto;
+  background-color: var(--bs-tertiary-bg) !important;
 }

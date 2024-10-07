@@ -27,18 +27,18 @@
 </svg>
 
 <div class="footer">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-1">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center px-5 my-1">
       <div class="col-md-4 d-flex align-items-center p-3">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <a href="index.php" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
         <img class="bi" width="34" height="43" src = "./assets/icon-transparent.png">
         </a>
         <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Carlos Valderrama</span>
       </div>
 
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex p-3">
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24" style = "color: #4e6151"><use href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24" style = "color: #4e6151"><use href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24" style = "color: #4e6151"><use href="#facebook"/></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://x.com/kaluroos" target = "_blank"><svg class="bi" width="24" height="24" style = "color: #4e6151"><use href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/kaluroos" target = "_blank"><svg class="bi" width="24" height="24" style = "color: #4e6151"><use href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://facebook.com/karuloos/" target = "_blank"><svg class="bi" width="24" height="24" style = "color: #4e6151"><use href="#facebook"/></svg></a></li>
       </ul>
     </footer>
   </div>
