@@ -7,7 +7,7 @@
 
             <div class = "greetings_container mb-5">
                 <p class = "greetings text-green">
-                    This is what I have learned and earned so far.
+                    This is what I have learned and earned so far, <strong class = "md-fs"><?= $_SESSION["firstname"];?>!</strong>.
                     <br>
                     Select the buttons to navigate easily :3
                 </p>
@@ -42,6 +42,6 @@
     </div>
 
     <div class="col-6 p-0 image_container">
-        <img src = "assets/photos/decoration/doodle_book.png">
+        <img src = "assets/photos/decoration/doodle_book.png" class = "doodle">
     </div>
 </div>

@@ -14,6 +14,7 @@
 
   .affil_text{
     text-align: left;
+    font-size: 1em;
     padding-right: 5em;
     line-height: 1.75em;
   }

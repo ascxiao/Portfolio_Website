@@ -24,7 +24,7 @@
   .achievement_text{
     text-align: center;
     margin: 5%;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   
   @media screen and (max-width: 1140px) {
@@ -76,7 +76,7 @@
   <div class = "col-lg-4 col-12 d-flex flex-column align-items-center transform-origin-center pl-5 ml-5" style = "padding-left: 6em;">
     <div class = "achievement_container image_container" style = "background-image: linear-gradient(rgba(52, 80, 54, 0%),rgba(52, 66, 54, 80%)),url('assets/photos/achievements/cde.jpg');"></div>
 
-    <div class = "about_text text-green d-flex flex-column align-items-center justify-content-center inter-body">
+    <div class = "achievement_text text-green d-flex flex-column align-items-center justify-content-center inter-body">
       <h4 class = "achievement_title">Most Outstanding Student in Visual Arts 2024</h4>
       <p class = "achievement_text">
         Awarded during the Corps d'Elite 2024 on May 2024
@@ -87,7 +87,7 @@
   <div class = "col-lg-4 col-12 d-flex flex-column align-items-center transform-origin-center pl-5 ml-5">
   <div class = "achievement_container image_container" style = "background-image: linear-gradient(rgba(52, 80, 54, 0%),rgba(52, 66, 54, 80%)),url('assets/photos/achievements/laurier.jpg');"></div>
 
-    <div class = "about_text text-green d-flex flex-column align-items-center justify-content-center inter-body">
+    <div class = "achievement_text text-green d-flex flex-column align-items-center justify-content-center inter-body">
       <h4 class = "achievement_title">Most Outstanding President and Most Outstanding Student in Culture and Arts</h4>
 
       <p class = "achievement_text">
@@ -99,7 +99,7 @@
   <div class = "col-lg-4 col-12 d-flex flex-column align-items-center transform-origin-center pl-5 ml-5" style = "padding-right: 6em;">
   <div class = "achievement_container image_container" style = "background-image: linear-gradient(rgba(52, 80, 54, 0%),rgba(52, 66, 54, 80%)),url('assets/photos/achievements/eagle.jpg');"></div>
 
-    <div class = "about_text text-green d-flex flex-column align-items-center justify-content-center inter-body">
+    <div class = "achievement_text text-green d-flex flex-column align-items-center justify-content-center inter-body">
       <h4 class = "achievement_title">Eagle Scout Rank Achievement</h4>
 
       <p class = "achievement_text">

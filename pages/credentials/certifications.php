@@ -1,40 +1,3 @@
-<style> 
-  @media screen and (max-width: 1140px) {
-
-    .picture_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10%;
-    width: 100%;
-    height:auto;
-    transform-origin: center;
-  }
-
-  .content_picture {
-    width: 256px;
-    height: 256px;
-    transform-origin: center;
-    border-radius: 50%;
-  }
-    .about_title {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding-right: 0;
-    padding-bottom: 2em;
-    }
-
-    .about_text{
-    display: flex;
-    text-align: justify;
-    padding: 3em;
-    margin: 10%;
-    }
-   } 
-
-</style>
-
 <div class = "row">
   <div class = "col-12 d-flex justify-content-center mt-5 pt-3">
     <div class = "header_title">
@@ -63,7 +26,7 @@
 
   <div class = "row mt-2 align-items-center">
     <div class = "col-xl-6 col-12 d-flex align-content-start justify-content-start">
-        <div class = " cg_text text-green" style = "text-align: left; padding-left: 6em;">
+        <div class = "cg_text text-green" style = "text-align: left; padding-left: 6em;">
           <p class = "text-green">
                 <strong class = "fs-5 text-green">Lasallian Leaders Training Seminar</strong>
                 <br>

@@ -16,7 +16,7 @@
 
             <div class = "greetings_container mb-5">
                 <p class = "greetings text-green">
-                    Take a glimpse of what I encountered in the past years
+                    Take a glimpse of what I encountered in the past years, <strong class = "md-fs"><?= $_SESSION["firstname"];?>!</strong>
                     <br>
                     Select the buttons to navigate easily :3
                 </p>
@@ -39,6 +39,6 @@
     </div>
 
     <div class="col-6 p-0 image_container">
-        <img src = "assets/photos/decoration/doodle_papers.png">
+        <img src = "assets/photos/decoration/doodle_papers.png" class = "doodle">
     </div>
 </div>

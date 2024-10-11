@@ -27,7 +27,7 @@
                             I'm 
                             <strong class = "md-fs"> Carlos Miguel C. Valderrama </strong>
                         </p>
-                        <p class = " inter-regular greetings text-green">and welcome to my student portfolio, <strong class = "md-fs">[visitor_name]!</strong></p>
+                        <p class = " inter-regular greetings text-green">and welcome to my student portfolio, <strong class = "md-fs"><?= $_SESSION["firstname"];?>!</strong></p>
                     </div>
 
                     <div class = "aboutme_button">

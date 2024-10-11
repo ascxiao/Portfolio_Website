@@ -93,7 +93,7 @@
 
 <div class = "row mt-2 " style = "padding-left: 7em">
     <div class = "col-xl-3 col-12 d-flex flex-column">
-        <div id="carousel1" class="carousel slide carousel_portrait" data-bs-ride="false" style = "border-radius: 24px">
+        <div id="carousel1" class="carousel slide carousel_portrait carousel1" data-bs-ride="false" style = "border-radius: 24px">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -139,7 +139,7 @@
     </div>
 
     <div class = "col-xl-3 col-12 d-flex flex-column">
-        <div id="carousel2" class="carousel slide carousel_portrait" data-bs-ride="false">
+        <div id="carousel2" class="carousel slide carousel_portrait carousel2" data-bs-ride="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -187,7 +187,7 @@
     <div class ="col-xl-6 col 12 d-flex flex-column">
         <div class = "row">
             <div class = "col-12 d-flex flex-column">
-                <div id="carousel3" class="carousel slide carousel_landscape" data-bs-ride="false">
+                <div id="carousel3" class="carousel slide carousel_landscape carousel3" data-bs-ride="false">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -235,7 +235,7 @@
 
         <div class = "row mt-3">
             <div class = "col-12 d-flex flex-column">
-                <div id="carousel4" class="carousel slide carousel_landscape" data-bs-ride="false">
+                <div id="carousel4" class="carousel slide carousel_landscape carousel4" data-bs-ride="false">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>

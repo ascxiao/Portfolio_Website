@@ -97,7 +97,7 @@
 <div class="flex-shrink-0 p-4 sidebar inter-body">
     <a href="index.php" class="d-flex align-items-center pb-3 pr-2 mb-3 link-body-emphasis text-decoration-none border-bottom text-white">
       <img class="pe-none me-2" width="34px" height="43px" src = "./assets/icon-transparent.png">
-      <span class="fs-5 fw-semibold rubik-bold" style = "padding-left:10px">Kaluroos Linnaeus</span>
+      <span class="fs-5 fw-semibold rubik-bold" style = "padding-left:10px">kaluroos linnaeus</span>
     </a>
   
     <ul class="list-unstyled ps-0">
@@ -161,9 +161,13 @@
       </li>
     </ul>
 
-    <div class = "d-flex text-white text-center position-absolute bottom-0">
+    <div class = "d-flex text-white text-center position-absolute bottom-0 mb-2">
       <strong><p id = "date" class = "date" style = "font-size: 1em; padding-right: 10px;"></p></strong>
       <strong><p id = "time" class = "time" style = "font-size: 1em;"></p></strong>
+    </div>
+
+    <div class = "d-flex text-white text-center position-absolute bottom-0 mb-1">
+    <div id="countdown" style = "font-size: 0.75em"></div>
     </div>
 
 

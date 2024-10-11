@@ -25,49 +25,11 @@
     margin: 0;
   }
 
-  @media screen and (max-width: 1140px) {
-
-    .imahge_container {
-      display: none;
-    }
-
-    .picture_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10%;
-    width: 100%;
-    height:auto;
-    transform-origin: center;
-  }
-  
-  .me_picture {
-    width: 256px;
-    height: 256px;
-    transform-origin: center;
-    border-radius: 50%;
-  }
-    .about_title {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding-right: 0;
-    padding-bottom: 2em;
-    }
-
-    .about_text{
-    display: flex;
-    text-align: justify;
-    padding: 3em;
-    margin: 10%;
-    }
-   } 
-
 </style>
 
 <div class = "row">
-  <div class = "col-xl-6 col-12" style = "height: 100%">
-    <div class = "image_container picture_container" style = "left: 10%">
+  <div class = "col-xl-6 col-12">
+    <div class = "image_container picture_container" style = "padding-left: 7em">
       <img src = "assets/photos/picture.jpg" class= "me_picture">
     </div>  
   </div>

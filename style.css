@@ -139,3 +139,11 @@ body {
     display: flex;
     margin-top: 40%;
 }
+
+.login_container {
+    background-color: #fafff1;
+    width: 540px;
+    height: 240px;
+    border-radius: 12px;
+    padding: 3em;
+}
